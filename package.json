@@ -1,0 +1,19 @@
+{
+  "name": "kyodai-game",
+  "private": true,
+  "version": "0.0.1",
+  "description": "kyodai game designed by xsfish",
+  "type": "module",
+  "author": "xsfish",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "phaser": "^3.88.2"
+  }
+} 
