@@ -9,11 +9,11 @@ export default class LoadingScene extends Phaser.Scene {
         this.createLoadingBar();
 
         // 加载资源
-        this.load.image('block', '/assets/block/block.png');
-        this.load.image('select', '/assets/block/select.png');
+        this.load.image('block', './assets/block/block.png');
+        this.load.image('select', './assets/block/select.png');
 
         for (let i = 1; i <= GAME_CONFIG.TILE_TYPES; i++) {
-            this.load.image(`tile${i}`, `/assets/block/icon/${i}.png`);
+            this.load.image(`tile${i}`, `./assets/block/icon/${i}.png`);
         }
     }
 
